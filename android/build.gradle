@@ -30,7 +30,6 @@ buildscript {
         kotlinVersion = '1.4.31'
     }
     repositories {
-        jcenter()
         google()
         mavenCentral()
     }
@@ -41,7 +40,6 @@ buildscript {
 }
 
 repositories {
-    jcenter()
     google()
     mavenCentral()
     maven {
@@ -52,6 +50,6 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.redmadrobot:input-mask-android:6.0.0'
+    implementation 'com.github.RedMadRobot:input-mask-android:6.0.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:${project.ext.kotlinVersion}"
 }
